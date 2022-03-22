@@ -1,0 +1,39 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;
+    color: black  
+  }
+
+/* Element Selectors */
+body {
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: #FDF8F5;
+    color: #4F4846;
+  }
+
+  header {
+    height: 60px;
+    /* 100% is responsive */
+    width: 100%;
+    line-height: 60px;
+    background-color: #266150;
+    position: fixed;
+    border-bottom: 10px solid #DDAF94;
+  }
+
+li {
+    display: inline;
+    padding: 1%;
+  }
+
+li a {
+    color: white
+}
+
+/* Class Selectors */
+.text-right {
+    text-align: right;
+  }
