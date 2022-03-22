@@ -1,0 +1,24 @@
+
+/* Element Selectors */
+img {
+    width: 23%
+}
+
+/* Media Queries */
+/* Tablets */
+@media screen and (max-width: 768px){
+
+img {
+    width: 46%;
+}
+    
+}
+
+/* Mobile */
+@media screen and (max-width: 480px){
+
+    img {
+        width: 92%;
+    }
+        
+    }
