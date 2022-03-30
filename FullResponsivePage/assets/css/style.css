@@ -29,12 +29,14 @@ nav h1 {
 }
 
 .nav-links {
+    /* 1 row */
     flex: 1;
     text-align: right;
 }
 
 .nav-links ul li {
     list-style: none;
+    /* Side by side, same line */
     display: inline-block;
     padding: 8px 12px;
     position: relative;
@@ -44,4 +46,20 @@ nav h1 {
     color: white;
     text-decoration: none;
     font-size: 13px;
+}
+
+/* Hover Effect Part 1 */
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+/* Hover Effect Part 1 */
+.nav-links ul li:hover::after {
+    width: 100%;
 }
