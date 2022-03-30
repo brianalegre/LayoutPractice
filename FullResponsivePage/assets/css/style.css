@@ -1,7 +1,9 @@
 /* Universal Selector */
 * {
     margin: 0;
-    paddign: 0;
+    padding: 0;
+    /* Link Font Family */
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -12,4 +14,34 @@ header {
     background-size: center;
     position: relative;
     background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    width: 250px;
+    color: white;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
 }
