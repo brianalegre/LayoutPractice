@@ -218,6 +218,17 @@ h3 {
     opacity: 1;
 }
 
+
+/* Applications Section */
+#applications {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+
 /* Media Query */
 @media screen and (max-width: 700px) {
 
