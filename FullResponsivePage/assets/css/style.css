@@ -112,7 +112,7 @@ nav .fa {
 }
 
 /* Skills Section */
-.skills {
+#skills {
     width: 80%;
     /* Center and Auto */
     margin: auto;
@@ -163,6 +163,16 @@ h3 {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 
 }
+
+/* Tools Sections */
+#tools {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
 
 /* Media Query */
 @media screen and (max-width: 700px) {
