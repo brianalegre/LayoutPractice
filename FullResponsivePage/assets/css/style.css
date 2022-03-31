@@ -220,12 +220,25 @@ h3 {
 
 
 /* Applications Section */
-#applications {
+/* #applications {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
-    
+
+} */
+
+/* Footer Section*/
+#contact {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#contact h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
 }
 
 
