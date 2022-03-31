@@ -211,5 +211,8 @@ h3 {
     /*                   */
     /*   Skills Section  */
     /*                   */
-    
+    .row {
+        flex-direction: column;
+    }
+
 }
